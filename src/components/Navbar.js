@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light bg-light">
+    <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <div className="container-fluid">
         {/* <a className="navbar-brand" href="#">Yasuko</a> */}
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">

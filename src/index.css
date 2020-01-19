@@ -6,6 +6,13 @@ body {
   color: #505962;
 }
 
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
 /*--- Navigation ---*/
 .navbar {
   text-transform: uppercase;
@@ -42,14 +49,97 @@ body {
   text-shadow: .1rem .1rem .5rem grey;
 }
 
+/*---About Page --*/
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+#about img {
+  max-width: 80%;
+  width: 290;
+  height: 290;
+}
+
+
+/*---Skills Page --*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 5rem 0 5rem;
+  border-radius: 0;
+}
+
+h2.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.3rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: grey;
+  margin: 0 auto 2rem;
+}
+
+.skills h4 {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+
+
+/*---Contact page --*/
+#contact {
+  background-color: #F1D5F3;
+  color: white;
+}
+
+#contact .col-md-5 {
+  padding: 4rem 0 4rem;
+}
+
+#contact a {
+  color: #505962;
+}
+
+#contact i {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+#contact i:hover {
+  color: white;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
 }
-@media (max-width: 768px) {
 
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  #about img {
+    max-width: 50%;
+    width: 200;
+    height: 200;
+    display: block;
+    margin: 0 auto;
+  }
 }
+
 @media (max-width: 576px) {
 
 }
