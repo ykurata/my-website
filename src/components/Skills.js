@@ -2,9 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div id="skills" className="offset">
-     
-      <div className="jumbotron">
+      <div id="skills" className="jumbotron offset">
         <div className="col-12 text-center">
           <h2 className="heading">Skills</h2>
           <div className="heading-underline"></div>
@@ -48,7 +46,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    
     // <div className="container-fluid p-4 my-4">
     //   <div className="row welcome text-center m-4" >
     //     <div className="col-12">

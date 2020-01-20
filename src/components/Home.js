@@ -1,21 +1,36 @@
 import React from "react";
 import sunset from '../image/sunset-2.jpg';
 
+const myStyle = {
+  backgroundImage : `url(${sunset})` ,
+  backgroundSize: 'cover',
+  height: '100vh',
+  position: 'relative',
+  width: '100%',
+  display: 'table'
+}
+
 const Home = () => {
   return (
-    <header id="home">
-      <div className="landing">
-        <div className="home-wrap">
-          <div className="home-inner">
-            <img className="d-block w-100" src={sunset} alt="Landing page" />
-          </div>
-        </div>
-      </div>
-      <div className="caption text-center">
+    <div id="home" style={myStyle}>
+      <div className="landing-text">
         <h1>Yasuko Kurata</h1>
-        <h3>Web developer who's passionate about coding!</h3>
+        <h3>Web developer who's passionate aboyt coding!</h3>
       </div>
-    </header>
+    </div>
+    // <header id="home">
+    //   <div className="landing">
+    //     <div className="home-wrap">
+    //       <div className="home-inner">
+    //         <img className="d-block w-100" src={sunset} alt="Landing page" />
+    //         <div className="caption text-center">
+    //           <h1>Yasuko Kurata</h1>
+    //           <h3>Web developer who's passionate about coding!</h3>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </header>
     // <div id="home" className="carousel slide" data-ride="carousel">
     //   <div className="carousel-inner">
     //     <div className="carousel-item active">

@@ -3,15 +3,15 @@ import profilePhoto from '../image/profile-photo.jpg';
 
 const About = () => {
   return (
-    <div id="about" className="container-fluid offset">
+    <div id="about" className="container-fluid padding offset">
       <div className="narrow">
         <div className="row padding">
-          <div className="col-lg-6">
+          <div className="col-md-12 col-lg-6">
             <img className="rounded-circle" src={profilePhoto}></img>
           </div>
-          <div className="col-lg-6">
+          <div className="col-md-12 col-lg-6">
             <h2 className="heading">About Me</h2>
-            {/* <div className="heading-underline"></div> */}
+            
             <p>Hi I'm Yasuko Kurata, web developer who's looking for an opportunity to join a great team!</p>
             <p>
               I learned my coding skills from the online tech school <a href="https://teamtreehouse.com">Team Treehouse</a> where I completed both the &nbsp;
