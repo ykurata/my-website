@@ -27,6 +27,7 @@ html, body {
   padding-right: .7rem;
 }
 
+
 /*--- Landing page---*/
 .landing-text {
   display: table-cell;
@@ -71,7 +72,7 @@ html, body {
   text-shadow: .1rem .1rem .5rem grey;
 } */
 
-/*---About Page --*/
+/*---About Section --*/
 .narrow {
   width: 75%;
   margin: 1.5rem auto;
@@ -86,7 +87,7 @@ html, body {
 }
 
 
-/*---Skills Page --*/
+/*---Skills Section --*/
 .jumbotron {
   margin-bottom: 0;
   padding: 5rem 0 5rem;
@@ -114,7 +115,24 @@ h2.heading {
 }
 
 
-/*---Contact page --*/
+/*---Projects Section ---*/
+#projects .inner-div {
+  width: 85%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+#projects .col-lg-6 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#projects img {
+  border: 10px solid;
+}
+
+/*---Contact Section --*/
 #contact {
   background-color: #F1D5F3;
   color: white;
