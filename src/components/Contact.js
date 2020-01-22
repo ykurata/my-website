@@ -10,7 +10,7 @@ const Contact = () => {
         <a href="https://www.linkedin.com/in/yasuko-kurata/" target="_blank" rel="noopener noreferrer" >
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/ykurata" target="_blank" >
+        <a href="https://github.com/ykurata" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </a>
       </div>

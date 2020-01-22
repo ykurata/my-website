@@ -7,7 +7,7 @@ const About = () => {
       <div className="narrow">
         <div className="row padding">
           <div className="col-md-12 col-lg-6">
-            <img className="rounded-circle" src={profilePhoto}></img>
+            <img className="rounded-circle" src={profilePhoto} alt="me"></img>
           </div>
           <div className="col-md-12 col-lg-6">
             <h2 className="heading">About Me</h2>
