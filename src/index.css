@@ -12,7 +12,7 @@ html, body {
   display: block;
   content: "";
   height: 4rem;
-  margin-top: -4rem;
+  margin-top: -3rem;
 }
 
 /*--- Navigation ---*/
@@ -50,28 +50,6 @@ html, body {
 }
 
 
-/* .caption {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 38%;
-  z-index: 1;
-  color: white;
-} */
-
-/* .caption h1 {
-  font-size: 3.8rem;
-  font-weight: 700;
-  letter-spacing: .2rem;
-  text-shadow: .1rem .1rem .8rem grey;
-  padding-bottom: .1rem;
-}
-
-.caption h3 {
-  font-size: 2rem;
-  text-shadow: .1rem .1rem .5rem grey;
-} */
-
 /*---About Section --*/
 .narrow {
   width: 75%;
@@ -104,7 +82,7 @@ h2.heading {
 .heading-underline {
   width: 3rem;
   height: .2rem;
-  background-color: grey;
+  background-color:#505962;
   margin: 0 auto 2rem;
 }
 
@@ -156,9 +134,19 @@ h2.heading {
   border: 10px solid;
 }
 
+#button-right {
+  padding-left: 1rem;
+}
+
+
+
 /*---Contact Section --*/
 #contact {
-  background-color: #F1D5F3;
+  background-color: #6384ba;
+  /* background: rgb(227,161,202);
+  background: radial-gradient(circle, rgba(227,161,202,1) 0%, rgba(237,188,171,1) 100%); */
+  /* background: rgb(132,193,213);
+  background: radial-gradient(circle, rgba(132,193,213,1) 0%, rgba(185,228,222,1) 100%); */
   color: white;
 }
 
@@ -178,6 +166,14 @@ h2.heading {
 #contact i:hover {
   color: white;
 }
+
+.heading-underline-white {
+  width: 3rem;
+  height: .2rem;
+  background-color: white;
+  margin: 0 auto 2rem;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -202,6 +198,7 @@ h2.heading {
     height: 200;
     display: block;
     margin: 0 auto;
+    padding-bottom: 2rem;
   }
   
   #projects .col-lg-6 {

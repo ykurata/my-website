@@ -9,7 +9,7 @@ import birthday from '../image/birthday-reminder.png';
 
 const Projects = () => {
   return (
-    <div id="projects" className="container-fluid padding">  
+    <div id="projects" className="container-fluid padding offset">  
       <div className="inner-div">
         <div className="row padding">
           <div className="col-12 text-center">
@@ -29,8 +29,8 @@ const Projects = () => {
               by viewing profiles and sending messages to potential sitters.
             </p>
             <br></br>
-            <a href="https://github.com/ykurata/Loving-Sitter" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">GitHub</button></a>
-            <a href="https://hatchways-loving-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Live Demo</button></a>
+            <a href="https://github.com/ykurata/Loving-Sitter" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+            <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
           </div>
           <div id="image" className="col-lg-6">
             <img src={lovingSitter} className="img-fluid" alt="project"></img>
@@ -45,8 +45,8 @@ const Projects = () => {
               Session based authentication, and CRUD operations.
             </p>
             <br></br>
-            <a href="https://github.com/ykurata/SQL-records-database" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">GitHub</button></a>
-            <a href="https://sql-records-database.herokuapp.com" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Live Demo</button></a>
+            <a href="https://github.com/ykurata/SQL-records-database" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+            <a href="https://sql-records-database.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
           </div>
           <div id="image" className="col-lg-6">
             <img src={records} className="img-fluid" alt="project"></img>
@@ -62,8 +62,8 @@ const Projects = () => {
               User can create an account and find, create, update, delete courses.
             </p>
             <br></br>
-            <a href="https://github.com/ykurata/FSJS-techdegree-project-10" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">GitHub</button></a>
-            <a href="https://fsjs-techdegree-10.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Live Demo</button></a>
+            <a href="https://github.com/ykurata/FSJS-techdegree-project-10" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+            <a href="https://fsjs-techdegree-10.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
           </div>
           <div id="image" className="col-lg-6">
             <img src={project10} className="img-fluid" alt="project"></img>
@@ -79,8 +79,8 @@ const Projects = () => {
               You can accept or refuse applications applied for projects you posted.
             </p>
             <br></br>
-            <a href="https://github.com/ykurata/techdegree-project-12" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">GitHub</button></a>
-            <a href="https://python-techdegree-12.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Live Demo</button></a>
+            <a href="https://github.com/ykurata/techdegree-project-12" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+            <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
           </div>
           <div id="image" className="col-lg-6">
             <img src={python12} className="img-fluid" alt="project"></img>
@@ -94,8 +94,8 @@ const Projects = () => {
               Display a notification on the day of your friends or families birthday so you no longer have to check facebook.
             </p>
             <br></br>
-            <a href="https://github.com/ykurata/Birthday-reminder" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">GitHub</button></a>
-            <a href="https://python-birthday-reminder.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Live Demo</button></a>
+            <a href="https://github.com/ykurata/Birthday-reminder" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+            <a href="https://python-birthday-reminder.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
           </div>
           <div className="col-lg-6">
             <img src={birthday} className="img-fluid" alt="project"></img>
