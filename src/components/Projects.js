@@ -129,6 +129,9 @@ const Projects = () => {
                   </div>
               
                   {/* // Records database  */}
+                  <div id="image" className="col-lg-6">
+                    <img src={records} className="img-fluid" alt="project"></img>
+                  </div>
                   <div className="col-lg-6">
                     <h2>Records Database</h2>
                     <h5>NodeJS / Sqlite / HTML / CSS</h5>
@@ -139,9 +142,7 @@ const Projects = () => {
                     <a href="https://github.com/ykurata/SQL-records-database" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                     <a href="https:// loving sitter//sql-records-database.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                   </div>
-                  <div id="image" className="col-lg-6">
-                    <img src={records} className="img-fluid" alt="project"></img>
-                  </div>
+                 
               
                   {/* // Rest api with React  */}
                   <div className="col-lg-6">
@@ -160,6 +161,9 @@ const Projects = () => {
                   </div>
               
                   {/* // Social Network with Django  */}
+                  <div id="image" className="col-lg-6">
+                    <img src={python12} className="img-fluid" alt="project"></img>
+                  </div>
                   <div className="col-lg-6">
                     <h2>Social Network with Django</h2>
                     <h5>Python / Django / Sqlite</h5>
@@ -170,9 +174,6 @@ const Projects = () => {
                     </p>
                     <a href="https://github.com/ykurata/techdegree-project-12" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                     <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
-                  </div>
-                  <div id="image" className="col-lg-6">
-                    <img src={python12} className="img-fluid" alt="project"></img>
                   </div>
               
                   {/* // python birthday reminder */}
