@@ -194,7 +194,7 @@ h2.heading {
     height: 200;
     display: block;
     margin: 0 auto;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
   }
   
   #projects .col-lg-6 {
