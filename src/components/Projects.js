@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Media from 'react-media';
+import myRecipes from '../image/my-recipes.png';
 import lovingSitter from '../image/loving-sitter.png';
 import records from '../image/records-database.png';
 import project10 from '../image/project10.png';
@@ -22,6 +23,23 @@ const Projects = () => {
             {matches =>
               matches.medium ? (
                 <Fragment>
+
+                  {/* My Recipes */}
+                  <div id="image" className="col-lg-6">
+                    <img src={myRecipes} className="img-fluid" alt="project"></img>
+                  </div>
+                  <div className="col-lg-6">
+                    <h2>My Recipes</h2>
+                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <p>
+                      <b>Responsive for both web and mobile.</b><br></br>
+                      This is an application for saving and searching your favourite recipes.<br></br>
+                      The app allows users to create and search for recipes by either ingredients or dish names.<br></br> 
+                      They can also view recipes from user profiles and like and write reviews on thier recipes.
+                    </p>
+                    <a href="https://github.com/ykurata/recipe-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+                    <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                  </div>
 
                   {/* loving sitter */}
                   <div id="image" className="col-lg-6">
@@ -110,7 +128,28 @@ const Projects = () => {
               ) : (
                  
                 <Fragment>
+                  {/* My Recipes */}
+                  <div className="col-lg-6">
+                    <h2>My Recipes</h2>
+                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <p>
+                      <b>Responsive for both web and mobile.</b><br></br>
+                      This is an application for saving and searching your favourite recipes.<br></br>
+                      The app allows users to create and search for recipes by either ingredients or dish names.<br></br> 
+                      They can also view recipes from user profiles and like and write reviews on thier recipes.
+                    </p>
+                    <a href="https://github.com/ykurata/recipe-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+                    <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                  </div>
+                  <div id="image" className="col-lg-6">
+                    <img src={myRecipes} className="img-fluid" alt="project"></img>
+                  </div>
+
+
                   {/* Loving sitter */}
+                  <div id="image" className="col-lg-6">
+                    <img src={lovingSitter} className="img-fluid" alt="project"></img>
+                  </div>
                   <div className="col-lg-6">
                     <h2>Loving Sitter</h2>
                     <h5>MongoDB / NodeJS / Express / React</h5>
@@ -124,14 +163,9 @@ const Projects = () => {
                     <a href="https://github.com/ykurata/Loving-Sitter" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                     <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                   </div>
-                  <div id="image" className="col-lg-6">
-                    <img src={lovingSitter} className="img-fluid" alt="project"></img>
-                  </div>
+                  
               
                   {/* // Records database  */}
-                  <div id="image" className="col-lg-6">
-                    <img src={records} className="img-fluid" alt="project"></img>
-                  </div>
                   <div className="col-lg-6">
                     <h2>Records Database</h2>
                     <h5>NodeJS / Sqlite / HTML / CSS</h5>
@@ -142,9 +176,15 @@ const Projects = () => {
                     <a href="https://github.com/ykurata/SQL-records-database" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                     <a href="https:// loving sitter//sql-records-database.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                   </div>
+                  <div id="image" className="col-lg-6">
+                    <img src={records} className="img-fluid" alt="project"></img>
+                  </div>
                  
               
                   {/* // Rest api with React  */}
+                  <div id="image" className="col-lg-6">
+                    <img src={project10} className="img-fluid" alt="project"></img>
+                  </div>
                   <div className="col-lg-6">
                     <h2>REST API with React</h2>
                     <h5>MongoDB / NodeJS / Express / React</h5>
@@ -156,14 +196,9 @@ const Projects = () => {
                     <a href="https://github.com/ykurata/FSJS-techdegree-project-10" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                     <a href="https://fsjs-techdegree-10.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                   </div>
-                  <div id="image" className="col-lg-6">
-                    <img src={project10} className="img-fluid" alt="project"></img>
-                  </div>
+                  
               
                   {/* // Social Network with Django  */}
-                  <div id="image" className="col-lg-6">
-                    <img src={python12} className="img-fluid" alt="project"></img>
-                  </div>
                   <div className="col-lg-6">
                     <h2>Social Network with Django</h2>
                     <h5>Python / Django / Sqlite</h5>
@@ -175,8 +210,14 @@ const Projects = () => {
                     <a href="https://github.com/ykurata/techdegree-project-12" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                     <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                   </div>
+                  <div id="image" className="col-lg-6">
+                    <img src={python12} className="img-fluid" alt="project"></img>
+                  </div>
               
                   {/* // python birthday reminder */}
+                  <div className="col-lg-6">
+                    <img src={birthday} className="img-fluid" alt="project"></img>
+                  </div>
                   <div className="col-lg-6">
                     <h2>Birthday Reminder</h2>
                     <h5>Python / Django / Sqlite</h5>
@@ -186,9 +227,6 @@ const Projects = () => {
                     </p>
                     <a href="https://github.com/ykurata/Birthday-reminder" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                     <a href="https://python-birthday-reminder.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
-                  </div>
-                  <div className="col-lg-6">
-                    <img src={birthday} className="img-fluid" alt="project"></img>
                   </div>
                 </Fragment>
               )
