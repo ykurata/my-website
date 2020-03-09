@@ -30,7 +30,7 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6">
                     <h2>My Recipes</h2>
-                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <h5>NodeJS / Express / React / MongoDB</h5>
                     <p>
                       <b>Responsive for both web and mobile.</b><br></br>
                       This is an application for saving and searching your favourite recipes.<br></br>
@@ -47,7 +47,7 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6">
                     <h2>Loving Sitter</h2>
-                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <h5>NodeJs / Express / React / MongoDB</h5>
                     <p>
                       <b>Hatchways Project-Based Development Course's project<br></br></b>
                       This application is for dog owners who need to find a dog sitter, <br></br>
@@ -66,7 +66,7 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6">
                     <h2>Records Database</h2>
-                    <h5>NodeJS / Sqlite / HTML / CSS</h5>
+                    <h5>NodeJS / HTML / CSS / Sqlite</h5>
                     <p>This application is for the music and record lovers. Great for storing and searching your record collection! <br></br>
                       SQL based app that helps you to save your record data.
                       Session based authentication, and CRUD operations.
@@ -82,7 +82,7 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6">
                     <h2>REST API with React</h2>
-                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <h5>NodeJS / Express / React / MongoDB</h5>
                     <p>A React app with and a REST API and Express. <br></br>
                       Team Treehouse Full Stack JavaScript Techdegree's 10th projecct.
                       An app that users can find courses.
@@ -131,7 +131,7 @@ const Projects = () => {
                   {/* My Recipes */}
                   <div className="col-lg-6">
                     <h2>My Recipes</h2>
-                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <h5>NodeJS / Express / React / MongoDB</h5>
                     <p>
                       <b>Responsive for both web and mobile.</b><br></br>
                       This is an application for saving and searching your favourite recipes.<br></br>
@@ -152,7 +152,7 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6">
                     <h2>Loving Sitter</h2>
-                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <h5>NodeJS / Express / React / MongoDB</h5>
                     <p>
                       <b>Hatchways Project-Based Development Course's project<br></br></b>
                       This application is for dog owners who need to find a dog sitter, <br></br>
@@ -168,7 +168,7 @@ const Projects = () => {
                   {/* // Records database  */}
                   <div className="col-lg-6">
                     <h2>Records Database</h2>
-                    <h5>NodeJS / Sqlite / HTML / CSS</h5>
+                    <h5>NodeJS / HTML / CSS / Sqlite</h5>
                     <p>This application is for the music and record lovers. Great for storing and searching your record collection! <br></br>
                       SQL based app that helps you to save your record data.
                       Session based authentication, and CRUD operations.
@@ -187,7 +187,7 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6">
                     <h2>REST API with React</h2>
-                    <h5>MongoDB / NodeJS / Express / React</h5>
+                    <h5>NodeJS / Express / React / MongoDB</h5>
                     <p>A React app with and a REST API and Express. <br></br>
                       Team Treehouse Full Stack JavaScript Techdegree's 10th projecct.
                       An app that users can find courses.
