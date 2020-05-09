@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Media from 'react-media';
-import yajiji from '../image/yajiji.jpg';
+import yajiji from '../image/list-items.gif';
 import myRecipes from '../image/my-recipes.png';
 import lovingSitter from '../image/loving-sitter.png';
 import records from '../image/records-database.png';
