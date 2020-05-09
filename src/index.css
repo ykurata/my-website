@@ -209,6 +209,9 @@ h2.heading {
 }
 
 @media (max-width: 576px) {
+  .narrow {
+    width: 100%;
+  }
   .landing-text h1 {
     font-size: 2.3rem;
     letter-spacing: .15rem;
