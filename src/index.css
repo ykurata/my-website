@@ -61,7 +61,7 @@ h5 {
 
 /*---About Section --*/
 .narrow {
-  width: 75%;
+  width: 80%;
   margin: 1.5rem auto;
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -196,6 +196,10 @@ h2.heading {
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
   }
+  
+  .narrow {
+    width: 100%;
+  }
 
   #about img {
     max-width: 50%;
@@ -204,6 +208,9 @@ h2.heading {
     display: block;
     margin: 0 auto;
     margin-bottom: 2rem;
+  }
+  #projects .inner-div {
+    width: 100%;
   }
   
   #projects .col-lg-6 {
