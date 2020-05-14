@@ -1,8 +1,17 @@
 import React from "react";
+import {useSpring, animated } from 'react-spring';
+
 
 const Skills = () => {
+  const props = useSpring({ 
+    from: {opacity: 0 }, 
+    opacity: 1,
+    delay: 1000,
+    config: {duration: 2000}
+  })
+
   return (
-    <div id="skills" className="jumbotron offset">
+    <animated.div  style={props} id="skills" className="jumbotron offset">
       <div className="col-12 text-center">
         <h2 className="heading">Skills</h2>
         <div className="heading-underline"></div>
@@ -45,7 +54,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </animated.div>
   );
 };
 

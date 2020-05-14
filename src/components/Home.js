@@ -1,5 +1,5 @@
 import React from "react";
-import {useSpring, animated, config} from 'react-spring';
+import {useSpring, animated,} from 'react-spring';
 
 import sunset from '../image/sunset-2.jpg';
 
@@ -17,7 +17,7 @@ const Home = () => {
     from: {opacity: 0, marginTop: -500 }, 
     to: {opacity: 1, marginTop: 0},
     delay: 500,
-    config: config.slow
+    config: {duration: 2000}
   })
   return (
     <div id="home" style={myStyle}>
