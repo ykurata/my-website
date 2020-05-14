@@ -1,9 +1,18 @@
 import React from "react";
+import {useSpring, animated, config} from 'react-spring';
+
 import profilePhoto from '../image/profile-photo.jpg';
 
 const About = () => {
+  const props = useSpring({ 
+    from: {opacity: 0}, 
+    to: {opacity: 1 },
+    delay: 1000,
+    config: {duration: 1000}
+  })
+
   return (
-    <div id="about" className="container-fluid padding offset">
+    <animated.div style={props} id="about" className="container-fluid padding offset">
       <div className="narrow">
         <div className="row padding">
           <div className="col-md-12 col-lg-6">
@@ -31,7 +40,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </animated.div>
   );
 };
 
