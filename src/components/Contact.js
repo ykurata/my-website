@@ -1,9 +1,9 @@
 import React from "react";
-import Slide from 'react-reveal/Slide';
+// import Slide from 'react-reveal/Slide';
 
 const Contact = () => {
   return (
-    <Slide bottom>
+    
     <div id="contact" className="row justify-content-center offset">
       <div className="col-md-5 text-center">
         <h2 className="heading">Contact</h2>
@@ -17,7 +17,7 @@ const Contact = () => {
         </a>
       </div>
     </div>
-    </Slide>
+    
   );
 };
 

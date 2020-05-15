@@ -16,9 +16,9 @@ const Projects = () => {
       <div className="inner-div">
         <div className="row padding">
           <div className="col-12 text-center">
-            <Slide  bottom>
+            
             <h2 className="heading">Projects</h2>
-            </Slide>
+           
             <div className="heading-underline"></div>
           </div>
 

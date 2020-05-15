@@ -1,9 +1,9 @@
 import React from "react";
-import Slide from 'react-reveal/Slide';
+// import Slide from 'react-reveal/Slide';
 
 const Skills = () => {
   return (
-    <Slide bottom>
+   
     <div id="skills" className="jumbotron offset">
       <div className="col-12 text-center">
         <h2 className="heading">Skills</h2>
@@ -48,7 +48,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-    </Slide>
+   
   );
 };
 
