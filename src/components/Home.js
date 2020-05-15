@@ -38,7 +38,7 @@ const Home = () => {
             <div className="col-lg-6" style={colorStyle}>
               <div className="landing-text">
                 <Fade top>
-                  <h1 className="mt-3">Yasuko Kurata</h1>
+                  <h1 className="mt-5">Yasuko Kurata</h1>
                   <h3>Web developer who's passionate about coding!</h3>
                 </Fade>
               </div>
