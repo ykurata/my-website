@@ -10,13 +10,12 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 const colorStyle = {
-  background: "#efcbf5",
+  backgroundColor: 'rgba(239, 203, 245, 0.8)',
   backgroundSize: 'cover',
   height: '100vh',
   position: 'relative',
   width: '100%',
   display: 'table',
-  opacity: 0.8
 }
 
 const photoStyle = {
@@ -36,7 +35,7 @@ const Home = () => {
       <div id="home" >
         <div className="container">
           <div className="row">
-            <div className="col-lg-6" style={colorStyle}>
+            <div className="col-lg-6 color" style={colorStyle}>
               <div className="landing-text">
                 <Fade top>
                   <h1>Yasuko Kurata</h1>
@@ -44,7 +43,7 @@ const Home = () => {
                 </Fade>
               </div>
             </div>
-            <div className="col-lg-6" style={photoStyle}>
+            <div className="col-lg-6 photo" style={photoStyle}>
             </div>
           </div>
         </div>

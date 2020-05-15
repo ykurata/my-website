@@ -161,6 +161,15 @@ h2.heading {
 }
 
 @media (max-width: 768px) {
+  /* Landing page styles */
+  .color {
+    max-height: 600px;
+  }
+  .photo {
+    max-height: 600px;
+    object-fit: cover;
+  }
+
   .narrow {
     width: 90%;
   }
@@ -184,11 +193,20 @@ h2.heading {
 }
 
 @media (max-width: 576px) {
+  /* Landing page styles */
+   .color {
+    max-height: 400px;
+  }
+  .photo {
+    max-height: 400px;
+    object-fit: cover;
+  }
+
   .narrow {
     width: 100%;
   }
   .landing-text h1 {
-    font-size: 2.3rem;
+    font-size: 3rem;
     letter-spacing: .15rem;
     padding-bottom: .5rem;
   }
