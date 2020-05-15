@@ -8,11 +8,12 @@ const Contact = () => {
         <div className="heading-underline-white"></div>
         <p>yasukokurata@gmail.com</p>
         <a href="https://www.linkedin.com/in/yasuko-kurata/" target="_blank" rel="noopener noreferrer" >
-          <i className="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin fa-3x mr-3"></i>
         </a>
         <a href="https://github.com/ykurata" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github"></i>
+          <i className="fab fa-github fa-3x"></i>
         </a>
+        <p className="created mt-5">&copy;&nbsp;2020 Created by Yasuko Kurata</p>
       </div>
     </div>
   );

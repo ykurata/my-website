@@ -30,6 +30,7 @@ h5 {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
+  min-height: 5rem;
 }
 
 .navbar-nav li {
@@ -104,30 +105,6 @@ h2.heading {
   padding-bottom: 2rem;
 }
 
-.skills:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-
-
 
 /*---Projects Section ---*/
 #projects .inner-div {
@@ -150,8 +127,6 @@ h2.heading {
   padding-left: 1rem;
 }
 
-
-
 /*---Contact Section --*/
 #contact {
   background-color: #6384ba;
@@ -159,7 +134,7 @@ h2.heading {
 }
 
 #contact .col-md-5 {
-  padding: 4rem 0 4rem;
+  padding-top: 4rem;
 }
 
 #contact a {
@@ -167,12 +142,11 @@ h2.heading {
 }
 
 #contact i {
-  font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0;
+  color : white;
 }
 
-#contact i:hover {
-  color: white;
+#contact .created {
+  font-size: .8rem;
 }
 
 .heading-underline-white {
