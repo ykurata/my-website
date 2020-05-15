@@ -16,9 +16,7 @@ const Projects = () => {
       <div className="inner-div">
         <div className="row padding">
           <div className="col-12 text-center">
-            
             <h2 className="heading">Projects</h2>
-           
             <div className="heading-underline"></div>
           </div>
 
