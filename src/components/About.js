@@ -18,7 +18,7 @@ const About = () => {
                 and issue tracking.
               </p>
               <p>
-                I'm experienced in using various languages and frameworks such as NodeJS, Express, Python and Django,
+                I'm experienced in using various languages and frameworks such as NodeJS, Express, React, Python and Django,
                 along with understanding of relational and non-relational databases.
                 I continue to learn new skills on my own by building my own projects and doing daily code challenges. 
               </p>
