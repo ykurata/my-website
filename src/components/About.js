@@ -12,7 +12,7 @@ const About = () => {
             <div className="text-left">
               <p>Hi I'm Yasuko Kurata, web developer who's looking for an opportunity to join a great team!</p>
               <p>
-                I learned my coding skills from the online tech school <a href="https://teamtreehouse.com">Team Treehouse</a> where I completed both the &nbsp;
+                I started my coding journey through the online tech school <a href="https://teamtreehouse.com">Team Treehouse</a> where I completed both the &nbsp;
                 <strong>Full Stack Javascript Techdegree</strong> and the <strong>Python Web Development Techdegree</strong>.
                 Recently, I completed <strong>Hatchways Project-Based Development Course</strong>, where I worked within a team, and learned utilized git flow
                 and issue tracking.
@@ -20,7 +20,7 @@ const About = () => {
               <p>
                 I'm experienced in using various languages and frameworks such as NodeJS, Express, Python and Django,
                 along with understanding of relational and non-relational databases.
-                I continue to learn new skills on my own but I'm also eager to learn from other as a member of a team!
+                I continue to learn new skills on my own by building my own projects and doing daily code challenges. 
               </p>
             </div>
           </div>
