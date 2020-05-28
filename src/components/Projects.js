@@ -39,7 +39,7 @@ const Projects = () => {
                         The app allows users to post adds for things you want to sell and search for items you want to buy. Either by the item's name or category. <br></br> 
                         Users can also send messages to the person who posted the add.
                       </p>
-                      <a href="https://github.com/ykurata/shop-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+                      <a href="https://github.com/ykurata/shop-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info ">GitHub</button></a>
                       <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Slide>
