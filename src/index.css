@@ -128,8 +128,8 @@ h2.heading {
   border: 10px solid;
 }
 
-#projects .col-lg-6:nth-child(even) #image {
-  order: 2;
+#projects li {
+  font-size: 1.2rem;
 }
 
 #projects button {
