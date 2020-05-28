@@ -10,7 +10,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 const colorStyle = {
-  backgroundColor: 'rgba(239, 203, 245, 0.8)',
+  backgroundColor: 'rgba(245, 144, 225, 0.6)',
   backgroundSize: 'cover',
   height: '100vh',
   position: 'relative',
@@ -38,7 +38,7 @@ const Home = () => {
             <div className="col-lg-6 color" style={colorStyle}>
               <div className="landing-text">
                 <Fade top>
-                  <h1>Yasuko Kurata</h1>
+                  <h1 className="mt-5">Yasuko Kurata</h1>
                   <h3>Web developer who's passionate about coding!</h3>
                 </Fade>
               </div>
