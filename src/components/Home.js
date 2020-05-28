@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-import profile from "../image/yasuko-edited.jpg";
+import profile from "../image/yasuko3.jpg";
 
 // import components
 import Navbar from './Navbar';
@@ -10,7 +10,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 const colorStyle = {
-  backgroundColor: 'rgba(239, 203, 245, 0.8)',
+  backgroundColor: 'rgba(245, 69, 44, 0.7)',
   backgroundSize: 'cover',
   height: '100vh',
   position: 'relative',

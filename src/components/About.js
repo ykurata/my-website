@@ -20,7 +20,7 @@ const About = () => {
               <p>
                 I'm experienced in using various languages and frameworks such as NodeJS, Express, React, Python and Django,
                 along with understanding of relational and non-relational databases.
-                I continue to learn new skills on my own by building my own projects and doing daily code challenges. 
+                I continue to learn new skills by building my own projects and doing daily code challenges. 
               </p>
             </div>
           </div>
