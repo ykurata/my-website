@@ -79,6 +79,9 @@ h5 {
   height: 280;
 }
 
+#about a {
+  color: #199dc2;
+}
 
 /*---Skills Section --*/
 .jumbotron {
