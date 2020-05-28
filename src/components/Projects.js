@@ -4,7 +4,6 @@ import yajiji from '../image/yajiji2.gif';
 import myRecipes from '../image/my-recipes2.gif';
 import lovingSitter from '../image/loving-sitter.png';
 import records from '../image/records-database.png';
-import project10 from '../image/project10.png';
 import python12 from '../image/python-project12.png';
 
 import Slide from 'react-reveal/Slide';
