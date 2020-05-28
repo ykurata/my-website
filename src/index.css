@@ -79,6 +79,9 @@ h5 {
   height: 280;
 }
 
+#about a {
+  color: #199dc2;
+}
 
 /*---Skills Section --*/
 .jumbotron {
@@ -111,7 +114,6 @@ h2.heading {
 
 /*---Projects Section ---*/
 #projects .inner-div {
-  width: 85%;
   margin: 1.5rem auto;
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -124,6 +126,10 @@ h2.heading {
 
 #projects img {
   border: 10px solid;
+}
+
+#projects li {
+  font-size: 1.2rem;
 }
 
 #projects button {
@@ -236,7 +242,7 @@ h2.heading {
   }
   
   #projects .inner-div {
-    width: 100%;
+    width: 90%;
   }
 }
 
