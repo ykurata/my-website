@@ -31,6 +31,18 @@ h5 {
   font-family: 'Roboto Mono', monospace;
 }
 
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
 /*--- Navigation ---*/
 .navbar {
   text-transform: uppercase;
