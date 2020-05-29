@@ -6,7 +6,7 @@ import lovingSitter from '../image/loving-sitter.png';
 import records from '../image/records-database.png';
 import python12 from '../image/python-project12.png';
 
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
   return (
@@ -24,7 +24,7 @@ const Projects = () => {
                 <Fragment>
 
                   {/* Yajiji shop-app */}
-                  <Slide bottom>
+                  <Fade>
                     <div id="image" className="col-lg-6">
                       <img src={yajiji} className="img-fluid" alt="project"></img>
                     </div>
@@ -43,10 +43,10 @@ const Projects = () => {
                       <a href="https://github.com/ykurata/shop-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info ">GitHub</button></a>
                       <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
-                  </Slide>
+                  </Fade>
 
                   {/* My Recipes */}
-                  <Slide bottom>
+                  <Fade>
                     <div id="image" className="col-lg-6">
                       <img src={myRecipes} className="img-fluid" alt="project"></img>
                     </div>
@@ -65,10 +65,10 @@ const Projects = () => {
                       <a href="https://github.com/ykurata/recipe-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                       <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
-                  </Slide>
+                  </Fade>
 
                   {/* loving sitter */}
-                  <Slide bottom>
+                  <Fade>
                     <div id="image" className="col-lg-6">
                       <img src={lovingSitter} className="img-fluid" alt="project"></img>
                     </div>
@@ -87,10 +87,10 @@ const Projects = () => {
                       <a href="https://github.com/ykurata/Loving-Sitter" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                       <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
-                  </Slide>
+                  </Fade>
                   
                   {/* records database */}
-                  <Slide bottom>
+                  <Fade>
                     <div id="image" className="col-lg-6">
                       <img src={records} className="img-fluid" alt="project"></img>
                     </div>
@@ -107,10 +107,10 @@ const Projects = () => {
                       <a href="https://github.com/ykurata/SQL-records-database" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                       <a href="https://sql-records-database.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
-                  </Slide>  
+                  </Fade>  
                   
                   {/* Social Network with Django  */}
-                  <Slide bottom>
+                  <Fade>
                     <div id="image" className="col-lg-6">
                       <img src={python12} className="img-fluid" alt="project"></img>
                     </div>
@@ -130,14 +130,14 @@ const Projects = () => {
                       <a href="https://github.com/ykurata/techdegree-project-12" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                       <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
-                  </Slide>
+                  </Fade>
             
                 </Fragment>
               ) : (
                  
                 <Fragment>
                   {/* Yajiji shop-app */}
-                  <Slide bottom>
+                  <Fade>
                     <div className="col-lg-6">
                       <h2>Yajiji (Buy and Sell)&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
                       <h5>NodeJS / Express / React / Postgres</h5>
@@ -156,11 +156,11 @@ const Projects = () => {
                     <div id="image" className="col-lg-6">
                       <img src={yajiji} className="img-fluid" alt="project"></img>
                     </div>
-                  </Slide>
+                  </Fade>
 
 
                   {/* My Recipes */}
-                  <Slide bottom>
+                  <Fade>
                     <div id="image" className="col-lg-6">
                       <img src={myRecipes} className="img-fluid" alt="project"></img>
                     </div>
@@ -179,11 +179,11 @@ const Projects = () => {
                       <a href="https://github.com/ykurata/recipe-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                       <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
-                  </Slide>
+                  </Fade>
                   
 
                   {/* Loving sitter */}
-                  <Slide bottom>
+                  <Fade>
                     <div className="col-lg-6">
                       <h2>Loving Sitter</h2>
                       <h5>NodeJS / Express / React / MongoDB</h5>
@@ -202,11 +202,11 @@ const Projects = () => {
                     <div id="image" className="col-lg-6">
                       <img src={lovingSitter} className="img-fluid" alt="project"></img>
                     </div>
-                  </Slide>
+                  </Fade>
                   
               
                   {/* Records database  */}
-                  <Slide bottom>
+                  <Fade>
                     <div id="image" className="col-lg-6">
                       <img src={records} className="img-fluid" alt="project"></img>
                     </div>
@@ -223,10 +223,10 @@ const Projects = () => {
                       <a href="https://github.com/ykurata/SQL-records-database" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                       <a href="https:// loving sitter//sql-records-database.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
-                  </Slide>
+                  </Fade>
               
                   {/* Social Network with Django  */}
-                  <Slide bottom>
+                  <Fade>
                     <div className="col-lg-6">
                       <h2>Social Network with Django</h2>
                       <h5>Python / Django / Sqlite</h5>
@@ -246,7 +246,8 @@ const Projects = () => {
                     <div id="image" className="col-lg-6">
                       <img src={python12} className="img-fluid" alt="project"></img>
                     </div>
-                  </Slide>  
+                  </Fade>
+                  
                 
                 </Fragment>
               )
