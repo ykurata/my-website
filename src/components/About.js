@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="container padding offset">
+    <section id="about" className="container padding offset">
       <div className="narrow">
         <div className="col-lg-12 text-center">
           <h2 className="heading">About Me</h2>
@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
