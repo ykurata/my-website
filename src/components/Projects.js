@@ -26,7 +26,9 @@ const Projects = () => {
                   {/* Yajiji shop-app */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={yajiji} className="img-fluid" alt="project" /></a>
+                      <a href="https://yasuko-shop-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={yajiji} className="img-fluid" alt="project" />
+                      </a>
                     </div>
                     <div className="col-lg-6">
                       <h2>Yajiji (Buy and Sell)&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
@@ -48,7 +50,7 @@ const Projects = () => {
                   {/* My Recipes */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
+                      <a href="https://yasuko-my-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>My Recipes&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
@@ -70,7 +72,7 @@ const Projects = () => {
                   {/* loving sitter */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
+                      <a href="https://hatchways-loving-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>Loving Sitter</h2>
@@ -92,7 +94,7 @@ const Projects = () => {
                   {/* records database */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://sql-records-database.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><img src={records} className="img-fluid" alt="project"/></a>
+                      <a href="https://sql-records-database.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={records} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>Records Database</h2>
@@ -112,7 +114,7 @@ const Projects = () => {
                   {/* Social Network with Django  */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
+                      <a href="https://python-techdegree-12.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>Social Network with Django</h2>
@@ -154,7 +156,7 @@ const Projects = () => {
                       <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                     <div id="image" className="col-lg-6">
-                      <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={yajiji} className="img-fluid" alt="project" /></a>
+                      <a href="https://yasuko-shop-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={yajiji} className="img-fluid" alt="project" /></a>
                     </div>
                   </Fade>
 
@@ -162,7 +164,7 @@ const Projects = () => {
                   {/* My Recipes */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
+                      <a href="https://yasuko-my-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>My Recipes&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
@@ -200,7 +202,7 @@ const Projects = () => {
                       <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                     <div id="image" className="col-lg-6">
-                      <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
+                      <a href="https://hatchways-loving-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
                     </div>
                   </Fade>
                   
@@ -208,7 +210,7 @@ const Projects = () => {
                   {/* Records database  */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://sql-records-database.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><img src={records} className="img-fluid" alt="project"/></a>
+                      <a href="https://sql-records-database.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={records} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>Records Database</h2>
@@ -244,7 +246,7 @@ const Projects = () => {
                       <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                     <div id="image" className="col-lg-6">
-                      <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
+                      <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
                     </div>
                   </Fade>
                   
