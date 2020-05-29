@@ -249,8 +249,7 @@ const Projects = () => {
                       <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
                     </div>
                   </Fade>
-                  
-                
+              
                 </Fragment>
               )
             }
