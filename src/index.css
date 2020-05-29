@@ -133,6 +133,11 @@ h2.heading {
 
 #projects img {
   border: 10px solid;
+  transition: transform .5s; /* Animation */
+}
+
+#projects img:hover {
+  transform: scale(1.05);
 }
 
 #projects li {
