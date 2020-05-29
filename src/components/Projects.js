@@ -10,7 +10,7 @@ import Slide from 'react-reveal/Slide';
 
 const Projects = () => {
   return (
-    <div id="projects" className="container padding offset">  
+    <section id="projects" className="container padding offset">  
       <div className="inner-div">
         <div className="row padding">
           <div className="col-12 text-center">
@@ -254,7 +254,7 @@ const Projects = () => {
           </Media>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

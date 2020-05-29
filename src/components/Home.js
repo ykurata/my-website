@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div id="home" style={homeStyles}>
+      <section id="home" style={homeStyles}>
        
         <div className="landing-text" >
           <Fade top>
@@ -35,7 +35,7 @@ const Home = () => {
           </Fade>
         </div>
        
-      </div>
+      </section>
       <About/>
       <Skills />
       <Projects />

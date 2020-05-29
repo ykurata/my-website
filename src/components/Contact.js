@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="row justify-content-center offset">
+    <section id="contact" className="row justify-content-center offset">
       <div className="col-md-5 text-center">
         <h2 className="heading">Contact</h2>
         <div className="heading-underline-white"></div>
@@ -15,7 +15,7 @@ const Contact = () => {
         </a>
         <p className="created mt-5">&copy;&nbsp;2020 Created by Yasuko Kurata</p>
       </div>
-    </div>
+    </section>
   );
 };
 

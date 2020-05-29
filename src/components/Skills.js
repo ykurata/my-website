@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div id="skills">
+    <section id="skills">
       <div className="jumbotron">
         <div className="container">
 
@@ -47,22 +47,10 @@ const Skills = () => {
                 <h4>CSS</h4>
               </div>
             </div>
-            {/* <div className="col-6 col-md-2">
-              <div className="skills">
-                <i className="fab fa-bootstrap fa-4x"></i>
-                <h4>Bootstrap</h4>
-              </div>
-            </div>
-            <div className="col-6 col-md-2">
-              <div className="skills">
-                <i className="fab fa-github fa-4x"></i>
-                <h4>Github</h4>
-              </div>
-            </div>  */}
           </div> 
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
