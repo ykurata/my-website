@@ -33,10 +33,9 @@ const Projects = () => {
                     <div className="col-lg-6">
                       <h2>Yajiji (Buy and Sell)&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
                       <h5>NodeJS / Express / React / Postgres</h5>
-                      <p><b>Responsive for both web and mobile.</b></p>
                       <p>This is an application for buying and selling items</p>
                       <ul>
-                        <li>Authentication with JWT token.</li>
+                        <li>Authentication with JSON Web Token.</li>
                         <li>Create new adds with images.</li>
                         <li>Search items either by the item's name or category.</li>
                         <li>Create own profile.</li>
@@ -55,10 +54,9 @@ const Projects = () => {
                     <div className="col-lg-6">
                       <h2>My Recipes&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
                       <h5>NodeJS / Express / React / MongoDB</h5>
-                      <p><b>Responsive for both web and mobile.</b></p>
                       <p>This is an application for saving and searching your favourite recipes.</p>  
                       <ul className="mt-2">
-                        <li>Authentication with JWT token.</li>
+                        <li>Authentication with JSON Web Token.</li>
                         <li>Create new recipes with images.</li>
                         <li>Search recipes either by the dish names or ingredients.</li>
                         <li>View recipes from user profiles.</li>
@@ -80,7 +78,7 @@ const Projects = () => {
                       <p><b>Hatchways Project-Based Development Course's project</b></p>
                       <p>This application is for dog owners who need to find a dog sitter, and dog sitters. </p>
                       <ul>
-                        <li>Authentication with JWT token.</li>
+                        <li>Authentication with JSON Web Token.</li>
                         <li>Create a profile.</li>
                         <li>Search dog sitters by location.</li>
                         <li>View dog sitters profiles.</li>
@@ -143,10 +141,9 @@ const Projects = () => {
                     <div className="col-lg-6">
                       <h2>Yajiji (Buy and Sell)&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
                       <h5>NodeJS / Express / React / Postgres</h5>
-                      <p><b>Responsive for both web and mobile.</b></p>
                       <p>This is an application for buying and selling items.</p>
                       <ul>
-                        <li>Authentication with JWT token.</li>
+                        <li>Authentication with JSON Web Token.</li>
                         <li>Create new adds with images.</li>
                         <li>Search items either by the item's name or category.</li>
                         <li>Create own profile.</li>
@@ -169,10 +166,9 @@ const Projects = () => {
                     <div className="col-lg-6">
                       <h2>My Recipes&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
                       <h5>NodeJS / Express / React / MongoDB</h5>                    
-                      <p><b>Responsive for both web and mobile.</b></p>
                       <p>This is an application for saving and searching your favourite recipes.</p>  
                       <ul className="mt-2">
-                        <li>Authentication with JWT token.</li>
+                        <li>Authentication with JSON Web Token.</li>
                         <li>Create new recipes with images.</li>
                         <li>Search recipes either by the dish names or ingredients.</li>
                         <li>View recipes from user profiles.</li>
@@ -192,7 +188,7 @@ const Projects = () => {
                       <p><b>Hatchways Project-Based Development Course's project</b></p>
                       <p>This application is for dog owners who need to find a dog sitter, and dog sitters. </p>
                       <ul>
-                        <li>Authentication with JWT token.</li>
+                        <li>Authentication with JSON Web Token.</li>
                         <li>Create a profile.</li>
                         <li>Search dog sitters by location.</li>
                         <li>View dog sitters profiles.</li>
