@@ -36,10 +36,10 @@ const Projects = () => {
                       <p>This is an application for buying and selling items</p>
                       <ul>
                         <li>Authentication with JSON Web Token.</li>
-                        <li>Create new adds with images.</li>
+                        <li>Create new ads with multiple images.</li>
                         <li>Search items either by the item's name or category.</li>
                         <li>Create own profile.</li>
-                        <li>Send messages to the person who posted the add.</li>
+                        <li>Real time messaging between the seller and the buyer.</li>
                       </ul>
                       <a href="https://github.com/ykurata/shop-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info ">GitHub</button></a>
                       <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
@@ -144,10 +144,10 @@ const Projects = () => {
                       <p>This is an application for buying and selling items.</p>
                       <ul>
                         <li>Authentication with JSON Web Token.</li>
-                        <li>Create new adds with images.</li>
+                        <li>Create new ads with multiple images.</li>
                         <li>Search items either by the item's name or category.</li>
                         <li>Create own profile.</li>
-                        <li>Send messages to the person who posted the add.</li>
+                        <li>Real time messaging between the seller and the buyer.</li>
                       </ul>
                       <a href="https://github.com/ykurata/shop-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
                       <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
