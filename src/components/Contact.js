@@ -6,7 +6,9 @@ const Contact = () => {
       <div className="col-md-5 text-center">
         <h2 className="heading">Contact</h2>
         <div className="heading-underline-white"></div>
-        <p>yasukokurata@gmail.com</p>
+        <p>
+        <a className="email" href="mailto:yasukokurata@gmail.com" target="_blank" rel="noopener noreferrer">yasukokurata@gmail.com</a>
+        </p>
         <a href="https://www.linkedin.com/in/yasuko-kurata/" target="_blank" rel="noopener noreferrer" >
           <i className="fab fa-linkedin fa-3x mr-3"></i>
         </a>

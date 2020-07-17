@@ -176,12 +176,17 @@ h2.heading {
 
 /*---Contact Section --*/
 #contact {
-  background-color: #6384ba;
+  background-color: #199dc2;
   color: white;
 }
 
 #contact .col-md-5 {
   padding-top: 4rem;
+}
+
+#contact .email {
+  font-size: 1.2rem;
+  color: white
 }
 
 #contact a {
