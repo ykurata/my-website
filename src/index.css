@@ -11,10 +11,9 @@ html, body {
   scroll-snap-type: y mandatory;
 }
 
-section {
-  /* Scroll Snap */
-  scroll-snap-align: center;
-}
+/* section { */
+  /* scroll-snap-align: center;
+} */
 
 .offset:before {
   display: block;
