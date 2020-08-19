@@ -25,7 +25,7 @@ const Projects = () => {
                   {/* Expense Manager */}
                   <Fade>
                     <div id="image" className="col-lg-6 image">
-                      <a href="https://yasuko-expense-manager.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://yasuko-expense-manager.herokuapp.com" target="_blank" rel="noopener noreferrer">
                         <img src={expense} className="img-fluid" alt="project"/>
                       </a>
                     </div>
@@ -40,14 +40,14 @@ const Projects = () => {
                         <li className="list">Filter data by month.</li>
                       </ul>
                       <a href="https://github.com/ykurata/expense-tracker" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://yasuko-expense-manager.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://yasuko-expense-manager.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Fade>  
 
                   {/* Yajiji shop-app */}
                   <Fade>
                     <div id="image" className="col-lg-6 image">
-                      <a href="https://yasuko-shop-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://yasuko-shop-app.herokuapp.com" target="_blank" rel="noopener noreferrer">
                         <img src={yajiji} className="img-fluid" alt="project" />
                       </a>
                     </div>
@@ -63,14 +63,14 @@ const Projects = () => {
                         <li className="list">Real time messaging between the seller and the buyer.</li>
                       </ul>
                       <a href="https://github.com/ykurata/shop-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info ">GitHub</button></a>
-                      <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://yasuko-shop-app.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Fade>
 
                   {/* My Recipes */}
                   <Fade>
                     <div id="image" className="col-lg-6 image">
-                      <a href="https://yasuko-my-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
+                      <a href="https://yasuko-my-recipes.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6 description">
                       <h2>My Recipes</h2>
@@ -84,14 +84,14 @@ const Projects = () => {
                         <li className="list">Send like and write reviews to other user's recipes.</li>
                       </ul>
                       <a href="https://github.com/ykurata/recipe-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://yasuko-my-recipes.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Fade>
 
                   {/* loving sitter */}
                   <Fade>
                     <div id="image" className="col-lg-6 image">
-                      <a href="https://hatchways-loving-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
+                      <a href="https://hatchways-loving-sitter.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6 description">
                       <h2>Loving Sitter</h2>
@@ -105,15 +105,15 @@ const Projects = () => {
                         <li className="list">View dog sitters profiles.</li>
                         <li className="list">Send messages to potential sitters.</li>
                       </ul>        
-                      <a href="https://github.com/ykurata/expense-tracker" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://github.com/ykurata/Loving-Sitter" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
+                      <a href="https://hatchways-loving-sitter.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Fade>
                   
                   {/* Social Network with Django  */}
                   <Fade>
                     <div id="image" className="col-lg-6 image">
-                      <a href="https://python-techdegree-12.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
+                      <a href="https://python-techdegree-12.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6 description">
                       <h2>Social Network with Django</h2>
@@ -129,7 +129,7 @@ const Projects = () => {
                         <li className="list">Accept or refuse applications for projects you posted.</li>
                       </ul>
                       <a href="https://github.com/ykurata/techdegree-project-12" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://python-techdegree-12.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Fade>
             
@@ -150,10 +150,10 @@ const Projects = () => {
                         <li>Filter data by month.</li>
                       </ul>
                       <a href="https://github.com/ykurata/expense-tracker" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://yasuko-expense-manager.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://yasuko-expense-manager.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                     <div id="image" className="col-lg-6">
-                      <a href="https://yasuko-expense-manager.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://yasuko-expense-manager.herokuapp.com" target="_blank" rel="noopener noreferrer">
                         <img src={expense} className="img-fluid" alt="project"/>
                       </a>
                     </div>
@@ -163,7 +163,7 @@ const Projects = () => {
                   {/* Yajiji shop-app */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://yasuko-shop-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={yajiji} className="img-fluid" alt="project" /></a>
+                      <a href="https://yasuko-shop-app.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={yajiji} className="img-fluid" alt="project" /></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>Yajiji (Buy and Sell)&nbsp;&nbsp;<span className="badge badge-pill badge-danger">New</span></h2>
@@ -177,7 +177,7 @@ const Projects = () => {
                         <li>Real time messaging between the seller and the buyer.</li>
                       </ul>
                       <a href="https://github.com/ykurata/shop-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://yasuko-shop-app.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://yasuko-shop-app.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Fade>
 
@@ -196,10 +196,10 @@ const Projects = () => {
                         <li>Send like and write reviews to other user's recipes.</li>
                       </ul>
                       <a href="https://github.com/ykurata/recipe-app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://yasuko-my-recipes.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://yasuko-my-recipes.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                     <div id="image" className="col-lg-6">
-                      <a href="https://yasuko-my-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
+                      <a href="https://yasuko-my-recipes.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={myRecipes} className="img-fluid" alt="project"/></a>
                     </div>
                   </Fade>
                   
@@ -207,7 +207,7 @@ const Projects = () => {
                   {/* Loving sitter */}
                   <Fade>
                     <div id="image" className="col-lg-6">
-                      <a href="https://hatchways-loving-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
+                      <a href="https://hatchways-loving-sitter.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src={lovingSitter} className="img-fluid" alt="project"/></a>
                     </div>
                     <div className="col-lg-6">
                       <h2>Loving Sitter</h2>
@@ -222,7 +222,7 @@ const Projects = () => {
                         <li>Send messages to potential sitters.</li>
                       </ul>   
                       <a href="https://github.com/ykurata/Loving-Sitter" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://hatchways-loving-sitter.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://hatchways-loving-sitter.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                   </Fade>
                 
@@ -242,10 +242,10 @@ const Projects = () => {
                         <li>Accept or refuse applications for projects you posted.</li>
                       </ul>
                       <a href="https://github.com/ykurata/techdegree-project-12" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">GitHub</button></a>
-                      <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
+                      <a href="https://python-techdegree-12.herokuapp.com" id="button-right" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info">Live Demo</button></a>
                     </div>
                     <div id="image" className="col-lg-6">
-                      <a href="https://python-techdegree-12.herokuapp.com/" id="button-right" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
+                      <a href="https://python-techdegree-12.herokuapp.com" id="button-right" rel="noopener noreferrer"><img src={python12} className="img-fluid" alt="project"/></a>
                     </div>
                   </Fade>
               
