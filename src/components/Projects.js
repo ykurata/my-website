@@ -97,7 +97,7 @@ const Projects = () => {
                           New
                         </span>
                       </h2>
-                      <h5>NodeJS / Express / React / Postgres</h5>
+                      <h5>NodeJS / Express / React (Context) / Postgres</h5>
                       <p>This is an application for buying and selling items</p>
                       <ul>
                         <li className="list">
@@ -153,7 +153,7 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-6 description">
                       <h2>My Recipes</h2>
-                      <h5>NodeJS / Express / React / MongoDB</h5>
+                      <h5>NodeJS / Express / React (Redux) / MongoDB</h5>
                       <p>
                         This is an application for saving and searching your
                         favourite recipes.
@@ -213,7 +213,7 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-6 description">
                       <h2>Loving Sitter</h2>
-                      <h5>NodeJs / Express / React / MongoDB</h5>
+                      <h5>NodeJs / Express / React (Redux) / MongoDB</h5>
                       <p>
                         <b>
                           Hatchways Project-Based Development Course's project
@@ -386,7 +386,7 @@ const Projects = () => {
                           New
                         </span>
                       </h2>
-                      <h5>NodeJS / Express / React / Postgres</h5>
+                      <h5>NodeJS / Express / React (Context) / Postgres</h5>
                       <p>
                         This is an application for buying and selling items.
                       </p>
@@ -425,7 +425,7 @@ const Projects = () => {
                   <Fade>
                     <div className="col-lg-6">
                       <h2>My Recipes</h2>
-                      <h5>NodeJS / Express / React / MongoDB</h5>
+                      <h5>NodeJS / Express / React (Redux) / MongoDB</h5>
                       <p>
                         This is an application for saving and searching your
                         favourite recipes.
@@ -492,7 +492,7 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-6">
                       <h2>Loving Sitter</h2>
-                      <h5>NodeJS / Express / React / MongoDB</h5>
+                      <h5>NodeJS / Express / React (Redux) / MongoDB</h5>
                       <p>
                         <b>
                           Hatchways Project-Based Development Course's project
