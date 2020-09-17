@@ -215,9 +215,7 @@ const Projects = () => {
                       <h2>Loving Sitter</h2>
                       <h5>NodeJs / Express / React (Redux) / MongoDB</h5>
                       <p>
-                        <b>
-                          Hatchways Project-Based Development Course's project
-                        </b>
+                        <b>Hatchways Co-op Program's project</b>
                       </p>
                       <p>
                         This application is for dog owners who need to find a
@@ -494,9 +492,7 @@ const Projects = () => {
                       <h2>Loving Sitter</h2>
                       <h5>NodeJS / Express / React (Redux) / MongoDB</h5>
                       <p>
-                        <b>
-                          Hatchways Project-Based Development Course's project
-                        </b>
+                        <b>Hatchways Co-op Program's project</b>
                       </p>
                       <p>
                         This application is for dog owners who need to find a
