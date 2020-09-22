@@ -229,7 +229,9 @@ const Projects = () => {
                         <li className="list">
                           Search dog sitters by location.
                         </li>
-                        <li className="list">View dog sitters profiles.</li>
+                        <li className="list">
+                          Make online payment through Stripe.
+                        </li>
                         <li className="list">
                           Send messages to potential sitters.
                         </li>
@@ -502,7 +504,7 @@ const Projects = () => {
                         <li>Authentication with JSON Web Token.</li>
                         <li>Create a profile.</li>
                         <li>Search dog sitters by location.</li>
-                        <li>View dog sitters profiles.</li>
+                        <li>Make online payments through Stripe.</li>
                         <li>Send messages to potential sitters.</li>
                       </ul>
                       <a
