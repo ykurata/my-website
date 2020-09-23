@@ -219,7 +219,8 @@ const Projects = () => {
                       </p>
                       <p>
                         This application is for dog owners who need to find a
-                        dog sitter, and dog sitters.{" "}
+                        dog sitter, and dog sitters who have spare time and
+                        would like to earn some extra money dog sitting.
                       </p>
                       <ul>
                         <li className="list">
@@ -498,7 +499,8 @@ const Projects = () => {
                       </p>
                       <p>
                         This application is for dog owners who need to find a
-                        dog sitter, and dog sitters.{" "}
+                        dog sitter, and dog sitters who have spare time and
+                        would like to earn some extra money dog sitting.
                       </p>
                       <ul>
                         <li>Authentication with JSON Web Token.</li>
